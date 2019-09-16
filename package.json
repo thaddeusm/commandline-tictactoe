@@ -1,0 +1,15 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "a command line game",
+  "main": "game.js",
+  "dependencies": {
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "play": "node game"
+  },
+  "author": "Thaddeus and Malachi McCleary",
+  "license": "ISC"
+}
