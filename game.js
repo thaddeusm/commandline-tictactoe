@@ -61,6 +61,7 @@ var play = function() {
 				if (emptySpaces[rowChoice][columnChoice] == true) {
 					placeItem(rowChoice, columnChoice, mark);
 					showBoard();
+					console.log("Great!");
 				} else {
 					console.log("Please choose a different space.");
 				}
